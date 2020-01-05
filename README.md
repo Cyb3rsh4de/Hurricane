@@ -1,1 +1,3 @@
 # Hurricane
+
+Hurricane eSports Website
