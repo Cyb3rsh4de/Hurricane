@@ -1,65 +1,89 @@
 body {
-    margin: 0px;
-    height: 6000px;
-    background: linear-gradient(360deg, #0D2C3F -7.41%, #070913 60.52%), #070C17;
-    overflow-x: hidden;
+  margin: 0px;
+  height: 6000px;
+  background: linear-gradient(360deg, #0d2c3f -7.41%, #070913 60.52%), #070c17;
+  overflow-x: hidden;
 }
 #logo {
-    position: absolute;
-    width: 632.69px;
-    height: 240px;
-    left: 654.61px;
-    top: 315px;
-    z-index: 0;
+  position: absolute;
+  width: 632.69px;
+  height: 240px;
+  left: 654.61px;
+  top: 315px;
+  z-index: 0;
 }
 #vid {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 0px;
-    top: -111px;
-    z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: -111px;
+  z-index: -1;
 }
 nav {
-    display: grid;
-    grid-template-columns: auto;
-    position: absolute;
-    width: 1920px;
-    height: 73px;
-    top: 969px;
-    background:linear-gradient(273.87deg, rgba(14, 18, 24, 0.2) 0%, rgba(32, 36, 41, 0.2) 100%) ;
-    border: #ffffff69;
-    border-width: 0.2px 0px 0.2px 0px;
-    border-style: solid;
+  display: grid;
+  grid-template-columns: auto;
+  position: absolute;
+  width: 1920px;
+  height: 73px;
+  top: 969px;
+  background: linear-gradient(
+    273.87deg,
+    rgba(14, 18, 24, 0.2) 0%,
+    rgba(32, 36, 41, 0.2) 100%
+  );
+  border: #ffffff69;
+  border-width: 0.2px 0px 0.2px 0px;
+  border-style: solid;
 }
-nav ul{
-    list-style: none;
+nav ul {
+  list-style: none;
 }
-li{
-    display: inline;
+li {
+  display: inline;
 }
-li a{
-    
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    margin: 130px;
-    text-align: center;
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin: 130px;
+  text-align: center;
 }
 #Text {
-    position: absolute;
-    height: 622px;
-    left: 0px;
-    top: 1374px;
-    color: white;
-    text-align: center;
-    font-size: 3.4rem;
-    font-family: Rubik;
-    line-height: 64px;
-    background: linear-gradient(273.87deg, rgba(14, 18, 24, 0.2) 0%, rgba(32, 36, 41, 0.2) 100%);
-    border-color: #ffffff69;
-    border-style: solid;
-    border-width: 0.4px 0px 0.4px 0px;
+  position: absolute;
+  height: 622px;
+  left: 0px;
+  top: 1374px;
+  color: white;
+  text-align: center;
+  font-size: 3.4rem;
+  font-family: Rubik;
+  line-height: 64px;
+  background: linear-gradient(
+    273.87deg,
+    rgba(14, 18, 24, 0.2) 0%,
+    rgba(32, 36, 41, 0.2) 100%
+  );
+  border-color: #ffffff69;
+  border-style: solid;
+  border-width: 0.4px 0px 0.4px 0px;
 }
-
-
+#Twitter {
+  position: absolute;
+  width: 1900px;
+  height: 842px;
+  left: 0px;
+  top: 2400px;
+  background: linear-gradient(
+    273.87deg,
+    rgba(14, 18, 24, 0.2) 0%,
+    rgba(32, 36, 41, 0.2) 100%
+  );
+  border-color: #ffffff69;
+  border-style: solid;
+  border-width: 0.4px 0px 0.4px 0px;
+}
+#curator-feed-test-layout {
+  width: 1200px;
+  margin: 60px auto auto 400px;
+}
